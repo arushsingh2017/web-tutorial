@@ -1,0 +1,20 @@
+.travel-wrap-left {
+   
+    padding: 10px;
+}
+.pnr-info {
+    background: #eee;
+    padding: 10px;
+}
+.container.ticker-inner {
+    border: 2px solid #eee;
+    /* padding: 10px; */
+}
+.title {
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.dis p{ 
+    margin-top: 0;
+margin-bottom: 4px;
+}

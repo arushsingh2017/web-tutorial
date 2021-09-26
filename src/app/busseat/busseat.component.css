@@ -1,0 +1,68 @@
+.seating-plan ul{
+    list-style-type:none;
+    display: flex;
+
+}
+.seating-plan ul li{
+
+}
+.seat-wrap{
+    display: flex;
+}
+.seating-plan {
+    width: 70%;
+  
+}
+.driver-sta {
+    width: 10%;
+    height: 100%;
+    border-right: 2px solid #ccc;
+    
+}
+.driver-sta img {
+    width: 68%;
+    margin-top: 35px;
+}
+.backseat {
+    width: 12%;
+    height: 100%;
+}
+.backseat ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.backseat ul li {
+    width: 50px;
+    height: 48px;
+}
+.fare-wrap {
+    /* background: #eee; */
+    /* padding: 10px; */
+    border-left: 5px solid #eee;
+}
+.top-height {
+    background: #ddd;
+    padding: 10px;
+}
+.select-s ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.select-s ul li {
+    background-color: #8e8b8b;
+    width: 77px;
+    display: inline-block;
+    padding: 8px;
+    margin: 3px;
+    color: #fff;
+}
+.fair-box {
+    margin-top: 15px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: content-box;
+    box-shadow: 0px 4px 7px #eee;
+}

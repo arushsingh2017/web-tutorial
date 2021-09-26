@@ -1,0 +1,40 @@
+<section class="banner-bg"> 
+    <div class="container">
+        <div class="banner-inner">
+            <h2 class="text-uppercase font-weight-bold">contact us</h2>
+            <p>Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin</p>
+
+        </div>
+    </div>
+</section>
+
+<!-- <ul>
+    <li *ngFor="let emp of employees">
+        ID : {{emp.id}} | Name : {{emp.name}}
+    </li>
+</ul> -->
+
+<!-- <table border="1" cellpadding="5" style=" margin: 0 auto;margin-top:40px;" width="500" >
+    <tr>
+        <th>Employees Id</th>
+        <th>Employees Name</th>
+    </tr>
+    <tr *ngFor="let emp of employees">
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+    </tr>
+</table> -->
+<!-- <ul>
+    <ng-template ngFor let-emp [ngForOf]="employees">
+        <li>
+            ID : {{emp.id}} || Name : {{emp.name}}
+        </li>
+    </ng-template>
+    
+</ul> -->
+
+<ul *ngFor ="let emp of employees; index as i; first as isfirst; last as islast">
+    
+    <div *ngIf="isfirst" style="background-color: red; color:#fff;" > {{i}} - ID : {{emp.id}} | Name : {{emp.name}} </div>
+    <div *ngIf="islast" style="background-color: blue; color:#fff;"> {{i}} - ID : {{emp.id}} | Name : {{emp.name}} </div>
+</ul>

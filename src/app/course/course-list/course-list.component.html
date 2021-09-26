@@ -1,0 +1,27 @@
+<section class="banner-bg"> 
+    <div class="container">
+        <div class="banner-inner">
+            <h2 class="text-uppercase font-weight-bold">Our Course</h2>
+            <p>Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin</p>
+
+        </div>
+    </div>
+</section>
+<section class="course-feature" class="pt-5 pb-3">
+    <div class="container">
+      
+        <div class="row">
+            <div class="col-sm-6 col-md-3 pr-0" *ngFor= "let bk of books$">
+                <div class="course-list">
+                    <!-- <img [src]="bk.thumbnailUrl"> -->
+                    
+                    <div class="course-card">
+                        <h5 class="pt-3">{{bk.state}}</h5>
+                    </div>
+                </div>
+            </div>
+           
+    </div>
+</div>
+</section>
+
